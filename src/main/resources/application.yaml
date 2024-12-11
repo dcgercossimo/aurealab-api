@@ -1,0 +1,4 @@
+spring:
+  application:
+    name: aurealab-api
+    version: 1.0.0
