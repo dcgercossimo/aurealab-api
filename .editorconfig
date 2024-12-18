@@ -1,0 +1,33 @@
+root = true
+
+# Regras gerais aplicadas a todos os arquivos
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Regras específicas para arquivos Java
+[*.java]
+indent_style = space
+indent_size = 4
+
+# Regras específicas para arquivos XML (usados frequentemente em configurações Spring Boot)
+[*.xml]
+indent_style = space
+indent_size = 2
+
+# Regras específicas para arquivos de configuração do Spring Boot
+[application*.yml]
+indent_style = space
+indent_size = 2
+
+[application*.yaml]
+indent_style = space
+indent_size = 2
+
+[*.properties]
+indent_style = space
+indent_size = 4
