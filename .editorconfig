@@ -20,11 +20,7 @@ indent_style = space
 indent_size = 2
 
 # Regras específicas para arquivos de configuração do Spring Boot
-[application*.yml]
-indent_style = space
-indent_size = 2
-
-[application*.yaml]
+[{*.yml, *.yaml}]
 indent_style = space
 indent_size = 2
 
